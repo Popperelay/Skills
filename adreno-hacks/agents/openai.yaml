@@ -1,0 +1,7 @@
+interface:
+  display_name: "Adreno Hacks"
+  short_description: "采集 Adreno ISA 与编译统计，解码 binlog，失败时用 REA 适配驱动"
+  default_prompt: "使用 $adreno-hacks 检查已连接的手机，并采集前台应用的 shader ISA。"
+
+policy:
+  allow_implicit_invocation: true

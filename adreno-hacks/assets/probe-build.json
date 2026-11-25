@@ -1,0 +1,24 @@
+{
+  "abi": "arm64-v8a",
+  "android_api": 28,
+  "ndk_version": "27.3.13750724",
+  "build_args": [
+    "--target=aarch64-linux-android28",
+    "--sysroot=<NDK toolchain>/sysroot",
+    "-O2",
+    "-std=c11",
+    "-D_POSIX_C_SOURCE=200809L",
+    "probe.c",
+    "-lvulkan",
+    "-o",
+    "qglprobe-arm64-v8a"
+  ],
+  "files": {
+    "probe.c": "85f2b3ff5fe0bb04b470b18790646d6bff0428528748905a28867015f6159384",
+    "probe.comp": "e338cb68ffd1874dd172b9dd0a2cac5a027f1bd45aebf93cd2a228b005459cc4",
+    "probe_properties.h": "86260bdf28860d8267996eb70009ddce0987ea72e552187d6247385a7d4b0359",
+    "probe_spv.h": "5acbe629f21ea16ca8ad6c447688e011d8fd6688ee86a4001ab7276026f15e42",
+    "qglprobe-arm64-v8a": "ce747e26d3a40c4a718c190ad00988523573f071474866557ab8d275710db378"
+  },
+  "source_origin": "Adapted from the local 2026-10-15 Vulkan probe; shader and embedded SPIR-V source included."
+}
