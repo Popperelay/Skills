@@ -1,0 +1,98 @@
+[
+  {
+    "path": "models/voxcpm2/config.json",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/config.json",
+    "size": 4336,
+    "sha256": "405f0dcd92f7feba6011ed4eac5c8d4f74cba9712f07fd5cfa3063bbdd95402c"
+  },
+  {
+    "path": "models/voxcpm2/audiovae.pth",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/audiovae.pth",
+    "size": 376951122,
+    "sha256": "94b5d51e107e0507d4acc976cfdadb64edd6fd06d1f751dadbf2fd1594274bf1"
+  },
+  {
+    "path": "models/voxcpm2/model.safetensors",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/model.safetensors",
+    "size": 4580080592,
+    "sha256": "f7f964cfa9da23653baec6e6f7750719977ad944ed9f95fe52fe3a620506891d"
+  },
+  {
+    "path": "models/voxcpm2/special_tokens_map.json",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/special_tokens_map.json",
+    "size": 1632,
+    "sha256": "068594063e37662c02b21acf42ebb334ef6a74fb810e68a2368f88f08351de76"
+  },
+  {
+    "path": "models/voxcpm2/tokenization_voxcpm2.py",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/tokenization_voxcpm2.py",
+    "size": 2895,
+    "sha256": "84489ea32b6ee0cae22ed5480cacb6df85c46624c3119be9a2021c3649a12729"
+  },
+  {
+    "path": "models/voxcpm2/tokenizer.json",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/tokenizer.json",
+    "size": 3676772,
+    "sha256": "f8984687e4a92a3503d521396d454b7d68e9fdaab2a0288eb3536c7c1aa4bc20"
+  },
+  {
+    "path": "models/voxcpm2/tokenizer_config.json",
+    "url": "https://huggingface.co/openbmb/VoxCPM2/resolve/7936080b41163874f38610f46f438e2c0757f9fd/tokenizer_config.json",
+    "size": 5059,
+    "sha256": "e78a3ebb48a0b9437efd1823b6b726c823da89e49dd8bcc90c02419d9baa772b"
+  },
+  {
+    "path": "models/hub/models--adefossez--HTDemucs-ft/snapshots/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/04573f0d.safetensors",
+    "url": "https://huggingface.co/adefossez/HTDemucs-ft/resolve/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/04573f0d.safetensors",
+    "size": 84025440,
+    "sha256": "68854b0d7c2b3274723b5761f6fd9f5aec5f1bcd3f0de7c1669546fdb7871b7c"
+  },
+  {
+    "path": "models/hub/models--adefossez--HTDemucs-ft/snapshots/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/92cfc3b6.safetensors",
+    "url": "https://huggingface.co/adefossez/HTDemucs-ft/resolve/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/92cfc3b6.safetensors",
+    "size": 84025440,
+    "sha256": "a241863551f30d01c42bd7b97da40839922ead3acb0f1fcab25682f55b4eeb59"
+  },
+  {
+    "path": "models/hub/models--adefossez--HTDemucs-ft/snapshots/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/d12395a8.safetensors",
+    "url": "https://huggingface.co/adefossez/HTDemucs-ft/resolve/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/d12395a8.safetensors",
+    "size": 84025440,
+    "sha256": "5b01a97567ae9a3178a6236fb520251045c03eb8834bc8c24a4eec11d6c8fb56"
+  },
+  {
+    "path": "models/hub/models--adefossez--HTDemucs-ft/snapshots/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/f7e0c4bc.safetensors",
+    "url": "https://huggingface.co/adefossez/HTDemucs-ft/resolve/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/f7e0c4bc.safetensors",
+    "size": 84025440,
+    "sha256": "2c85ab3c62dd6edd8e0b965e38b16fd1cdde357cc25de6b6bc9ce7c83f60925f"
+  },
+  {
+    "path": "models/hub/models--adefossez--HTDemucs-ft/snapshots/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/htdemucs_ft.yaml",
+    "url": "https://huggingface.co/adefossez/HTDemucs-ft/resolve/d74ac89c3a1e874fc78f152555cf4d8533f06cd4/htdemucs_ft.yaml",
+    "size": 149,
+    "sha256": "69470b8c1bbd674437b51bc9fb491327a10ab0396b702c93389b9cf750016346"
+  },
+  {
+    "path": "models/campplus/campplus_cn_en_common.pt",
+    "url": "https://modelscope.cn/models/iic/speech_campplus_sv_zh_en_16k-common_advanced/resolve/73001f7ab0bbf7a18739f6e0a48bc1bc74f7a271/campplus_cn_en_common.pt",
+    "size": 28044640,
+    "sha256": "92f29b94e6948786a26778c9e302525d185bb08c8b9f5252ed98776902840199"
+  },
+  {
+    "path": "models/campplus/config.yaml",
+    "url": "https://modelscope.cn/models/iic/speech_campplus_sv_zh_en_16k-common_advanced/resolve/73001f7ab0bbf7a18739f6e0a48bc1bc74f7a271/config.yaml",
+    "size": 537,
+    "sha256": "17342041bd5b22f6fd7e32f6e7a267b0bf65f018c0a721bada6547e3d28fbfc9"
+  },
+  {
+    "path": "models/campplus/configuration.json",
+    "url": "https://modelscope.cn/models/iic/speech_campplus_sv_zh_en_16k-common_advanced/resolve/73001f7ab0bbf7a18739f6e0a48bc1bc74f7a271/configuration.json",
+    "size": 587,
+    "sha256": "d1ae364ff71e84ef5918ba30b0f8c2f28d2fdfdac4003b60ce0877b3f4630048"
+  },
+  {
+    "path": "models/whisper/large-v3-turbo.pt",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a/large-v3-turbo.pt",
+    "size": 1617941637,
+    "sha256": "aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a"
+  }
+]

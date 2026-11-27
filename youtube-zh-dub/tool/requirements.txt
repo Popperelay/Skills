@@ -1,0 +1,13 @@
+# Python 3.12 venv (VoxCPM2 needs 3.10-3.12). Install torch from constraints-cu128.txt first.
+numpy
+soundfile
+librosa
+pydub
+yt-dlp[default]
+deno                 # JS runtime for YouTube n-challenge (host node is sandboxed)
+demucs==4.1.0
+openai-whisper
+voxcpm==2.0.3
+funasr               # CAM++ speaker embedding for TTS QA
+modelscope           # VoxCPM2 / CAM++ model download
+triton-windows       # optional; torch.compile is kept off on Windows (warm-up hangs)

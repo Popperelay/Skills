@@ -1,0 +1,47 @@
+# dub 配置（覆盖 dub/config.py 里的默认值；单次运行也可以用 --set key.sub=value 覆盖）
+
+# 工具和模型使用本机缓存的 Windows x64 运行环境。
+
+[download]
+max_height = 1080
+
+[separate]
+model = "htdemucs_ft"
+shifts = 1               # 讲座类人声干净，1 次已足够；音乐重的视频可改 2-3（耗时成倍）
+
+[asr]
+model = "large-v3-turbo"
+language = "en"
+prompt = ""              # 留空 = 由标题/标签/简介自动生成
+
+[translate]
+chunk_size = 110         # 每个翻译子代理处理的句数
+zh_units_per_sec = 4.6   # 中文配音口语长度预算（单位/秒）
+
+[tts]
+mode = "ult"             # ult = 全局参考音频 + 其转写（试点实测最好）
+cfg = 2.0
+steps = 10
+seed = 42
+
+[qa]
+cer_bad = 0.20
+cer_gate = 0.25
+gate_ratio = 0.03        # 重试后仍有问题的句子超过 3% 才停下来让 AI 改写（exit 30）
+max_rewrite_passes = 1
+original_cer = 0.35
+original_max_slot_s = 4.0
+
+[mix]
+bgm_volume = 0.30
+
+[subtitles]
+hard_font = "Microsoft YaHei"
+hard_font_size = 15
+zh_font = "Microsoft YaHei"
+en_font = "Segoe UI"
+
+[output]
+formats = ["hard", "soft"]   # hard = 烧录字幕 mp4；soft = 可切换字幕 mkv+mp4
+dir = "output"               # 成片目录：<dir>/<视频标题>/<视频标题>.中文配音.mkv …；可改成绝对路径，如 "D:/Videos/中文配音"
+link = true                  # 同盘时用硬链接，不额外占空间；跨盘自动改为复制

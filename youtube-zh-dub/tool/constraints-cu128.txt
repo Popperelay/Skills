@@ -1,0 +1,5 @@
+# CUDA 12.8 PyTorch for RTX 50-series (sm_120). Install FIRST, then requirements.txt with this file as constraints:
+#   python -m pip install -r constraints-cu128.txt --index-url https://download.pytorch.org/whl/cu128
+#   python -m pip install -r requirements.txt -c constraints-cu128.txt --extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchaudio==2.11.0+cu128
